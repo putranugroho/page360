@@ -1,0 +1,38 @@
+{
+	"product":[
+		{
+			"title" : "Metro Park Residence 3BR Fully Furnished",
+			"monthly_price" : 7580000,
+			"bedroom" : 3,
+			"bathroom" : 2,
+			"furnished" : "full",
+			"area" : 35,
+			"tower" : "Manhattan",
+			"floor" : 35,
+			"thumb" : "unit1.jpg"
+		},
+		{
+			"title" : "Menteng Park 2BR View city",
+			"monthly_price" : 15160000,
+			"price" : 3750000,
+			"bedroom" : 2,
+			"bathroom" : 1,
+			"furnished" : "semi",
+			"area" : 27,
+			"tower" : "Sapphire",
+			"floor" : 27,
+			"thumb" : "unit2.jpg"
+		},
+		{
+			"title" : "Puri Orchard Apartment 1BR Tower Og",
+			"monthly_price" : 4330000,
+			"bedroom" : 1,
+			"bathroom" : 1,
+			"furnished" : "non",
+			"area" : 35,
+			"tower" : "Orange Groove",
+			"floor" : 36,
+			"thumb" : "unit3.jpeg"
+		}
+	]
+}

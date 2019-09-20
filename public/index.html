@@ -14,6 +14,38 @@
       manifest.json provides metadata used when your web app is installed on a
       user's mobile device or desktop. See https://developers.google.com/web/fundamentals/web-app-manifest/
     -->
+    <style>
+    .centered {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: black;
+    }
+
+    .home{
+      background: url(main-background-untuk-home-area.png);
+      background-size: 400px 200px
+    }
+
+    #more {display: none;}
+
+    body{
+    background: #fff;
+      }
+      #box {
+        transition: box-shadow .3s;
+        margin: 45px;
+        border-radius:10px;
+        border: 1px solid #fff;
+        background: #fff;
+        float: left;
+        
+      }
+      #box:hover {
+        box-shadow: 0 0 25px rgba(255,0,0,1); 
+    }
+    </style>
     <link rel="manifest" href="%PUBLIC_URL%/manifest.json" />
     <!--
       Notice the use of %PUBLIC_URL% in the tags above.
