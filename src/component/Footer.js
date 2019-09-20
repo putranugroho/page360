@@ -10,10 +10,25 @@ class Footer extends Component {
 
                   <div className='row'>
 
-                     <div className='col-10 p-0 '>
+                     <div className='col-5 p-0 '>
                         <h6 className='p-0 font-weight-light'>Copyrights 2019 <span className='text-uppercase font-weight-bold text-success'>Page360</span></h6>
                         <h6 className='p-0 my-0 font-weight-light'>Design and developed by <span className='font-weight-normal'>Putra Nugroho</span></h6>
                         <h6 className='p-0 font-weight-light'>For Jendela360</h6>
+                     </div>
+
+                     <div className='col-5 p-0 '>
+                        <h6 className='p-0 font-weight-bold'>Bantuan</h6>
+                        <h6 className='p-0 font-weight-light'>Sewakan Apartemen Anda</h6>
+                        <h6 className='p-0 font-weight-light'>Syarat & ketentan</h6>
+                        <h6 className='p-0 font-weight-light'>Jendela360</h6>
+                        <h6 className='p-0 font-weight-light'>Panduan Penyewa</h6>
+                        <h6 className='p-0 font-weight-light'>Panduan Pemilik</h6>
+                        <h6 className='p-0 font-weight-light'>Panduan Kami</h6>
+                        <h6 className='p-0 font-weight-light'>Hubungi Kami</h6>
+                        <h6 className='p-0 font-weight-light'>F.A.Q</h6>
+                        <h6 className='p-0 font-weight-light'>Tentang Kami</h6>
+                        <h6 className='p-0 font-weight-light'>Info Jendela360</h6>
+                        <h6 className='p-0 font-weight-light'>Career</h6>
                      </div>
 
                      <div className='col p-0 text-right'>
