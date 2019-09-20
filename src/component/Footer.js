@@ -6,11 +6,12 @@ class Footer extends Component {
          <div style={{ backgroundColor: 'black' }} className="mt-5">
 
             <div style={{backgroundSize: 'cover', backgroundPosition: '50% 75%' }}>
-               <div className='container text-white py-5 mt-1 mb-3'>
+               <div className='container text-white py-3 mt-1 mb-3'>
 
                   <div className='row'>
 
                      <div className='col-5 p-0 '>
+                        <img src='footer-logo-white.svg' style={{width: 150, height: 150}}/>
                         <h6 className='p-0 font-weight-light'>Copyrights 2019 <span className='text-uppercase font-weight-bold text-success'>Page360</span></h6>
                         <h6 className='p-0 my-0 font-weight-light'>Design and developed by <span className='font-weight-normal'>Putra Nugroho</span></h6>
                         <h6 className='p-0 font-weight-light'>For Jendela360</h6>

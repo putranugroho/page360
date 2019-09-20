@@ -122,9 +122,11 @@ class Home extends Component {
                         </ModalFooter>
                     </Modal>
                 </div>
-                <h1><center>Sewa Apartment Jakarta</center></h1>
+                <hr></hr>
+                <h1 className='mt-4'><center>Sewa Apartment Jakarta</center></h1>
                     {this.rendertext()}
-                <button className="btn btn-block btn-secondary" onClick={()=>this.setState({readmore:!this.state.readmore})}>Read More</button>
+                <button className="btn btn-block btn-light mt-4" onClick={()=>this.setState({readmore:!this.state.readmore})}>Read More</button>
+                <hr></hr>
             </div>
         )
     }

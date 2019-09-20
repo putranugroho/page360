@@ -22,19 +22,19 @@ class Header extends Component {
       render() {
         return (
           <div>
-            <Navbar color="light" light expand="md">
-              <NavbarBrand href="/">Logo</NavbarBrand>
+            <Navbar color="secondary" light expand="md">
+              <img src='white-logo.svg' style={{width: 150, height: 50}}/>
               <NavbarToggler onClick={this.toggle} />
               <Collapse isOpen={this.state.isOpen} navbar>
                 <Nav navbar>
                   <NavItem>
-                    <NavLink href="/">Products</NavLink>
+                    <NavLink href="/" style={{color:"white"}}>Products</NavLink>
                   </NavItem>
                   <NavItem>
-                    <NavLink href="https://github.com/putranugroho/page360">GitHub</NavLink>
+                    <NavLink href="https://github.com/putranugroho/page360" style={{color:"white"}}>GitHub</NavLink>
                   </NavItem>
                   <UncontrolledDropdown nav inNavbar>
-                    <DropdownToggle nav caret>
+                    <DropdownToggle nav caret style={{color:"white"}}>
                       Options
                     </DropdownToggle>
                     <DropdownMenu right>
